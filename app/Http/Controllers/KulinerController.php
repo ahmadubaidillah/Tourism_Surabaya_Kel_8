@@ -30,7 +30,16 @@ class KulinerController extends Controller
     }
     public function updatekuliner(Request $request, $id){
         $data = Kuliner::find($id);
-        $data->update($request->all());
+        if ($request->hasFile('foto')){
+            $request->file('foto')->move('fotodestinasi/',$request->file('foto')->getClientOriginalName());
+            $data->foto = $request->file('foto')->getClientOriginalName();
+        }
+        $data->nama = $request->nama;
+        $data->kategori = $request->kategori;
+        $data->alamat = $request->alamat;
+        $data->deskripsi = $request->deskripsi;
+
+        $data->save();
         return redirect()->route('data_kuliner');
         
      }

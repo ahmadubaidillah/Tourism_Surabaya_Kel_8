@@ -29,9 +29,19 @@ class DestinasiController extends Controller
         // dd($data);
         return view('tampildestinasi',compact('data'));
     }
-    public function updatedestinasi(Request $request, $id){
+    public function updatedestinasi(Request $request, $id){ 
+        // dd($request->file('foto')->getClientOriginalName());
         $data = Destinasi::find($id);
-        $data->update($request->all());
+        if ($request->hasFile('foto')){
+            $request->file('foto')->move('fotodestinasi/',$request->file('foto')->getClientOriginalName());
+            $data->foto = $request->file('foto')->getClientOriginalName();
+        }
+        $data->nama = $request->nama;
+        $data->kategori = $request->kategori;
+        $data->alamat = $request->alamat;
+        $data->deskripsi = $request->deskripsi;
+
+        $data->save();
         return redirect()->route('data_destinasi');
         
      }

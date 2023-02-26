@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DestinasiController;
 use App\Http\Controllers\KulinerController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +36,7 @@ Route::get('/tampilkankuliner/{id}',[KulinerController::class, 'tampilkankuliner
 Route::post('/updatekuliner/{id}',[KulinerController::class, 'updatekuliner'])->name('updatekuliner');
 Route::get('/deletekuliner/{id}',[KulinerController::class, 'deletekuliner'])->name('deletekuliner');
 Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('mainkuliner');
+
+// Login
+Route::get('/data_user',[KulinerController::class, 'index'])->name('data_user');
+Route::get('/login',[LoginController::class, 'index'])->name('login');

@@ -12,9 +12,8 @@
   <nav class="navbar-destinasi mb-5">
         <a href="" class="nav-panel nav-logo">ADMIN</a>
         <ul class="nav-link">
-          <li class="nav-item2"><a href="/welcome">Beranda</a></li>
-          <li class="nav-item2"><a href="/maindestinasi">Destinasi</a></li>
-          <li class="nav-item2"><a href="/mainkuliner">Kuliner</a></li>
+          <li class="nav-item2"><a href="/data_destinasi">Destinasi</a></li>
+          <li class="nav-item2"><a href="/data_kuliner">Kuliner</a></li>
           <li class="nav-item2"><a href="#">Logout</a></li>
         </ul>
       </nav>

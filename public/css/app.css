@@ -496,3 +496,7 @@ h5 {
     font-weight: bold;
     color: black;
 }
+
+.nav-panel:hover {
+    color: #6019ff;
+}
