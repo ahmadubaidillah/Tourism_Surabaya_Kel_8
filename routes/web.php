@@ -37,6 +37,7 @@ Route::post('/updatekuliner/{id}',[KulinerController::class, 'updatekuliner'])->
 Route::get('/deletekuliner/{id}',[KulinerController::class, 'deletekuliner'])->name('deletekuliner');
 Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('mainkuliner');
 
-// Login
-Route::get('/data_user',[KulinerController::class, 'index'])->name('data_user');
+// Login dan Register
 Route::get('/login',[LoginController::class, 'index'])->name('login');
+Route::get('/register',[LoginController::class, 'register'])->name('register');
+Route::post('/registeruser',[LoginController::class, 'registeruser'])->name('registeruser');
