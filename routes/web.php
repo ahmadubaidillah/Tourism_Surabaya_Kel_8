@@ -39,5 +39,9 @@ Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('main
 
 // Login dan Register
 Route::get('/login',[LoginController::class, 'index'])->name('login');
+Route::post('/loginproses',[LoginController::class, 'loginproses'])->name('loginproses');
+
 Route::get('/register',[LoginController::class, 'register'])->name('register');
 Route::post('/registeruser',[LoginController::class, 'registeruser'])->name('registeruser');
+
+Route::get('/logout',[LoginController::class, 'logout'])->name('logout');

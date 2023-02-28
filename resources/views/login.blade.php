@@ -13,20 +13,20 @@
        <div class="col-8">
        <div class="card">
           <div class="card-body">
-            <form action="/insertdestinasi" method="POST" enctype="multipart/form-data">
+            <form action="/loginproses" method="post" >
               @csrf
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                <input type="text" name="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Password</label>
-                <input type="password" name="deskripsi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="password" name="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
-              <a href="" class="btn btn-primary mb-3">LOGIN</a>
+              <button type="submit" class="btn btn-primary mb-4">Login</button>
               <br>
               <a href="/register" class="" style="text-decoration:none;">Register new account ?</a>
-            </form>
+            </form> 
           </div>
         </div>
        </div>

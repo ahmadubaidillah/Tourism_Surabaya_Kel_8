@@ -15,7 +15,7 @@
         <ul class="nav-link">
           <li class="nav-item2"><a href="/data_destinasi">Destinasi</a></li>
           <li class="nav-item2"><a href="/data_kuliner">Kuliner</a></li>
-          <li class="nav-item2"><a href="#">Logout</a></li>
+          <li class="nav-item2"><a href="/logout">Logout</a></li>
         </ul>
       </nav>
   </header>

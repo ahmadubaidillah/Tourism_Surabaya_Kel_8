@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+
 
 
 class LoginController extends Controller
@@ -20,6 +22,15 @@ class LoginController extends Controller
         return view('register');
     }
     
+    public function loginproses(Request $request)
+    {
+        if(Auth::attempt($request->only('email','password'))){
+            return redirect('data_destinasi');
+        }
+
+        return \redirect('login');
+    }
+
     public function registeruser(Request $request)
     {
         // dd($request->all());
@@ -29,10 +40,15 @@ class LoginController extends Controller
             'password'=>bcrypt($request->password),
             'remember_token'=>Str::random(60),
         ]);
-
+        
         return\redirect('/login');
     }
-
+    public function logout()
+    {
+        Auth::logout();
+        return \redirect('login');
+    }
+    
     /**
      * Show the form for creating a new resource.
      *
