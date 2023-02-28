@@ -11,7 +11,7 @@
   <body>
   <header>
   <nav class="navbar-destinasi mb-5">
-        <a href="" class="nav-panel nav-logo">ADMIN</a>
+        <a href="#" class="nav-panel nav-logo">{{ Auth::user()->role == 'admin' ? 'Welcome Admin, ' : 'Welcome ' }}{{Auth::user()->name}}</a>
         <ul class="nav-link">
           <li class="nav-item2"><a href="/data_destinasi">Destinasi</a></li>
           <li class="nav-item2"><a href="/data_kuliner">Kuliner</a></li>
@@ -51,7 +51,10 @@
       <td>{{$row->deskripsi}}</td>
       <td>
           <a href="/tampilkandestinasi/{{$row->id}}" class="btn btn-warning">Edit</a>
+        @if(Auth::user()->role == 'admin')
           <a href="/deletedestinasi/{{$row->id}}" class="btn btn-danger">Delete</button>
+        @endif
+          
       </td>
     </tr>
     @endforeach

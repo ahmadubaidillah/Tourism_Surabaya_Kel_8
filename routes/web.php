@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 // destinasi
-Route::get('/data_destinasi',[DestinasiController::class, 'index'])->name('data_destinasi');
+
 Route::get('/tambahdestinasi',[DestinasiController::class, 'tambahdestinasi'])->name('tambahdestinasi');
 Route::post('/insertdestinasi',[DestinasiController::class, 'insertdestinasi'])->name('insertdestinasi');
 Route::get('/tampilkandestinasi/{id}',[DestinasiController::class, 'tampilkandestinasi'])->name('tampilkandestinasi');
@@ -36,6 +36,12 @@ Route::get('/tampilkankuliner/{id}',[KulinerController::class, 'tampilkankuliner
 Route::post('/updatekuliner/{id}',[KulinerController::class, 'updatekuliner'])->name('updatekuliner');
 Route::get('/deletekuliner/{id}',[KulinerController::class, 'deletekuliner'])->name('deletekuliner');
 Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('mainkuliner');
+
+
+Route::group(['middleware' => ['auth','hakakses:admin']],function(){
+    Route::get('/data_destinasi',[DestinasiController::class, 'index'])->name('data_destinasi');
+});
+
 
 // Login dan Register
 Route::get('/login',[LoginController::class, 'index'])->name('login');
