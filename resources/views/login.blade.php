@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LOGIN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
   </head>
   <body>
     <h1 class="text-center mb-4 mt-5">LOGIN</h1>
@@ -23,7 +24,7 @@
                 <label for="exampleInputEmail1" class="form-label">Password</label>
                 <input type="password" name="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
-              <button type="submit" class="btn btn-primary mb-4">Login</button>
+              <button type="submit" class="btn btn-primary mb-4">SIGN IN</button>
               <br>
               <a href="/register" class="" style="text-decoration:none;">Register new account ?</a>
             </form> 

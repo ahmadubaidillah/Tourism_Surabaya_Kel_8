@@ -19,6 +19,9 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
+// index
+Route::get('/index',[IndexController::class, 'index'])->name('index');
+
 // destinasi
 
 Route::get('/tambahdestinasi',[DestinasiController::class, 'tambahdestinasi'])->name('tambahdestinasi');
@@ -38,7 +41,7 @@ Route::get('/deletekuliner/{id}',[KulinerController::class, 'deletekuliner'])->n
 Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('mainkuliner');
 
 
-Route::group(['middleware' => ['auth','hakakses:admin']],function(){
+Route::group(['middleware' => ['auth','hakakses:admin,user']],function(){
     Route::get('/data_destinasi',[DestinasiController::class, 'index'])->name('data_destinasi');
 });
 

@@ -38,7 +38,7 @@
             alt=""
         /></a>
         <ul class="nav-link">
-          <li class="nav-item2"><a href="/welcome">Beranda</a></li>
+          <li class="nav-item2"><a href="/">Beranda</a></li>
           <li class="nav-item2"><a href="/maindestinasi">Destinasi</a></li>
           <li class="nav-item2"><a href="/mainkuliner">Kuliner</a></li>
           <li class="nav-item2"><a href="/login">Login</a></li>
