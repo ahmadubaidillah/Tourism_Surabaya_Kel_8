@@ -20,9 +20,9 @@
     @php
     $no = 1;
     @endphp
-    @foreach ($data as $row)
+    @foreach ($data as $index => $row)
     <tr>
-      <th scope="row">{{$no++}}</th>
+      <th scope="row">{{$index + $data->firstitem()}}</th>
       <td>{{$row->nama}}</td>
       <td>{{$row->kategori}}</td>
       <td>
@@ -42,6 +42,7 @@
     
   </tbody>
 </table>
+{{$data->links()}}
         </div>
     </div>
 @endsection

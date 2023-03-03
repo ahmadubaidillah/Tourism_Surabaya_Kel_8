@@ -5,6 +5,7 @@ body {
 
 .bg {
     width: 100%;
+    filter: brightness(40%);
 }
 
 .navbar {
@@ -95,7 +96,8 @@ body {
 }
 
 .icon a:hover {
-    background-color: aqua;
+    background-color: #6868ac;
+    border-radius: 50%;
 }
 
 .isi {

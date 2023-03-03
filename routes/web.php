@@ -30,6 +30,7 @@ Route::get('/tampilkandestinasi/{id}',[DestinasiController::class, 'tampilkandes
 Route::post('/updatedestinasi/{id}',[DestinasiController::class, 'updatedestinasi'])->name('updatedestinasi');
 Route::get('/deletedestinasi/{id}',[DestinasiController::class, 'deletedestinasi'])->name('deletedestinasi');
 Route::get('/maindestinasi',[DestinasiController::class, 'maindestinasi'])->name('maindestinasi');
+Route::get('/deskripsidestinasi',[DestinasiController::class, 'deskripsidestinasi'])->name('deskripsidestinasi');
 
 // kuliner
 Route::get('/data_kuliner',[KulinerController::class, 'index'])->name('data_kuliner');

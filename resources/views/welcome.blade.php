@@ -35,7 +35,9 @@
         </div>
     </div>
 
+    <div class="mainbg">
     <video loop muted autoplay poster="poster" class="bg" src="https://tourism.surabaya.go.id/assets/front/videos/surabaya.mp4" ></video>
+    </div>
 
     <div class="isi">
         <div class="isi-satu">

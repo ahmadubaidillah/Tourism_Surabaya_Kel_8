@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coba Destinasi</title>
+    <title>Tourism Surabaya</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,7 +32,7 @@
   <body>
     <header>
       <nav class="navbar-destinasi">
-        <a href="" class="nav-logo"
+        <a href="/" class="nav-logo"
           ><img
             src="https://tourism.surabaya.go.id/assets/front/images/img-logo-sparkling.png"
             alt=""
@@ -45,70 +45,15 @@
         </ul>
       </nav>
     </header>
-    <div class="destinasi-nav">
-      <p><a href="index.html">Beranda</a> > Destinasi Wisata</p>
-    </div>
-    <div class="destinasi-judul">
-      <h2>DESTINASI WISATA</h2>
-    </div>
-    <div><br /></div>
 
+    
     @yield("content")
 
 
 
    
 
-    <div class="nav-list-page">
-      <nav>
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="" rel="prev" aria-label="« Previous"
-              >‹</a
-            >
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="index.html">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="destinasi-2.html">2</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">3</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">4</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">5</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">6</a>
-          </li>
-          <li class="page-item disabled" aria-disabled="true">
-            <span class="page-link">...</span>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">45</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">46</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">47</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">48</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">49</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="" rel="next" aria-label="Next »">›</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+   
 
     <div class="kosong"> <br> </div>
 

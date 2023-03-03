@@ -1,5 +1,13 @@
 @extends("Layout.app")
 @section("content")
+<div class="destinasi-nav">
+      <p><a href="index.html">Beranda</a> > Destinasi Wisata</p>
+    </div>
+    <div class="destinasi-judul">
+      <h2>DESTINASI WISATA</h2>
+    </div>
+    <div><br /></div>s
+
 <div class="container">
       <p class="destinasi-filter">
         <button
@@ -230,6 +238,14 @@
           </div>
         </div>
         @endforeach
+
+        
+
+        <div class="nav-list-page">
+      <nav>
+      {{$data->links()}}
+      </nav>
+    </div>
 
 
     </div>
