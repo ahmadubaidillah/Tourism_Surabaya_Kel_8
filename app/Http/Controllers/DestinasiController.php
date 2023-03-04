@@ -53,7 +53,7 @@ class DestinasiController extends Controller
      }
 
     public function maindestinasi(){
-        $data = Destinasi::paginate(5);
+        $data = Destinasi::paginate(9);
         return view('maindestinasi',compact('data'));
      }
 

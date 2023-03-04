@@ -484,6 +484,12 @@ h5 {
     font-weight: 600;
 }
 
+.active > .page-link,
+.page-link.active {
+    background-color: #6868ac;
+    border-color: #6868ac;
+}
+
 .margin-top {
     margin-top: 10px;
 }

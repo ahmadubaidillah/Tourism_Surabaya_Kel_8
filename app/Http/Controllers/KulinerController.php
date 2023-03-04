@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class KulinerController extends Controller
 {
     public function index(){
-        $data = Kuliner::all();
+        $data = Kuliner::paginate(5);
         return view('data_Kuliner',compact('data'));
     }
     public function tambahkuliner(){
@@ -51,7 +51,7 @@ class KulinerController extends Controller
      }
 
     public function mainkuliner(){
-        $data = Kuliner::all();
+        $data = Kuliner::paginate(9);
         return view('mainkuliner',compact('data'));
      }
 }

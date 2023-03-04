@@ -243,7 +243,7 @@
 
         <div class="nav-list-page">
       <nav>
-      {{$data->links()}}
+        {{$data->links()}}
       </nav>
     </div>
 
