@@ -75,35 +75,34 @@
         <div class="isi4-content1">
             <div class="gambar1">
                 <div class="isi-gambar1">
-                    <div class="row1"><img class="img" src="https://tourism.surabaya.go.id/storage/tour/1672116704_1.jpg" alt="">
+                    <div class="row1"><img class="img" src="https://tourism.surabaya.go.id/storage/tour/1672116704_1.jpg" alt="" style="margin-bottom:20px">
                         <span class="span-kategori">History & Heritage</span>
                         <h3>GEDUNG ESCOMTO (Bank Mandiri KCP Kembang Jepun)</h3>
                         <p><i class="fa fa-fw fa-map-marker-alt"></i> Jl. Kembang Jepun No 180</p>
                     </div>
                     <br><br><br>
                     <div class="row2">
-                        <img src="https://tourism.surabaya.go.id/storage/event/Festival%20Cipta%20Karya%20Tari%20Surabaya%202022_1653643534_1.jpeg" alt="">
-                        <span class="span-kategori">Event</span>
-                        <h3>Festival Cipta Karya Tari Surabaya 2022</h3>
-                        <p><i class="fa fa-fw fa-map-marker-alt"></i> Jl. Gubernur Suryo No. 15, Genteng – Surabaya</p>
+                        <img src="https://tourism.surabaya.go.id/storage/tour/1648714528_1.jpg" alt="" style="margin-bottom:20px">
+                        <span class="span-kategori">Pusat Perbelanjaan</span>
+                        <h3>Tunjungan Plaza</h3>
+                        <p><i class="fa fa-fw fa-map-marker-alt"></i> JL. Jendral Basuki Rachmat no.8-12, Surabaya</p>
                     </div>
                 </div>
             </div>
             <div class="gambar2">
                 <div class="isi-gambar2">
                     <div class="row1">
-                        <img src="https://tourism.surabaya.go.id/storage/accomodation/Cleo%20Hotel%20Basuki%20Rahmat_1653624473_1.jpg" alt="">
+                        <img src="https://tourism.surabaya.go.id/storage/accomodation/Cleo%20Hotel%20Basuki%20Rahmat_1653624473_1.jpg" alt="" style="margin-bottom:20px">
                         <span class="span-kategori">Hotel</span>
                         <h3>Cleo Hotel Basuki Rahmat</h3>
                         <p><i class="fa fa-fw fa-map-marker-alt"></i> Jl. Basuki Rahmat No.11 Surabaya</p>
                     </div>
                     <br><br><br>
                     <div class="row2">
-                        <img src="https://tourism.surabaya.go.id/storage/event/1652839795_1.jpg" alt="">
-                        <p>Kampung Wisata</p>
-                        <h3>Recovery Ride</h3>
-                        <p><i class="fa fa-fw fa-map-marker-alt"></i> Surabaya Town Square Mezzanine Level 2, Jalan Hayam Wuruk No.6, Sawunggaling, Wonokromo, Ketintang, Sawunggaling, Kec. Wonokromo, Kota SBY, Jawa Timur 60242
-                        </p>
+                        <img src="https://tourism.surabaya.go.id/storage/tour/1648713708_1.jpg" alt="" style="margin-bottom:20px">
+                        <span class="span-kategori">Monumen & Landmark</span>                      
+                        <h3>Monumen Tugu Pahlawan</h3>
+                        <p><i class="fa fa-fw fa-map-marker-alt"></i>Jl. Pahlawan</p>
                     </div>
                 </div>
             </div>

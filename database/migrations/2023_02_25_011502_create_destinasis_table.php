@@ -16,10 +16,22 @@ class CreateDestinasisTable extends Migration
         Schema::create('destinasis', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->enum('kategori',['History & Heritage','Museum','Religi']);
+            $table->enum('kategori',[
+                'History & Heritage',
+                'Museum',
+                'Religi',
+                'Outdoor & Nature',
+                'Pusat Perbelanjaan',
+                'Pasar Tradisional',
+                'Kampung Wisata',
+                'Sport',
+                'Cagar Budaya',
+                'City Park',
+                'Monumen & Landmark'
+            ]);
             $table->string('foto');
             $table->string('alamat');
-            $table->string('deskripsi');
+            $table->text('deskripsi');
             $table->timestamps();
         });
     }

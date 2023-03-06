@@ -30,7 +30,7 @@ Route::get('/tampilkandestinasi/{id}',[DestinasiController::class, 'tampilkandes
 Route::post('/updatedestinasi/{id}',[DestinasiController::class, 'updatedestinasi'])->name('updatedestinasi');
 Route::get('/deletedestinasi/{id}',[DestinasiController::class, 'deletedestinasi'])->name('deletedestinasi');
 Route::get('/maindestinasi',[DestinasiController::class, 'maindestinasi'])->name('maindestinasi');
-Route::get('/deskripsidestinasi',[DestinasiController::class, 'deskripsidestinasi'])->name('deskripsidestinasi');
+Route::get('/deskripsidestinasi/{id}',[DestinasiController::class, 'deskripsidestinasi'])->name('deskripsidestinasi');
 
 // kuliner
 Route::get('/data_kuliner',[KulinerController::class, 'index'])->name('data_kuliner');
@@ -40,6 +40,8 @@ Route::get('/tampilkankuliner/{id}',[KulinerController::class, 'tampilkankuliner
 Route::post('/updatekuliner/{id}',[KulinerController::class, 'updatekuliner'])->name('updatekuliner');
 Route::get('/deletekuliner/{id}',[KulinerController::class, 'deletekuliner'])->name('deletekuliner');
 Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('mainkuliner');
+Route::get('/deskripsikuliner/{id}',[KulinerController::class, 'deskripsikuliner'])->name('deskripsikuliner');
+
 
 
 Route::group(['middleware' => ['auth','hakakses:admin,user']],function(){
