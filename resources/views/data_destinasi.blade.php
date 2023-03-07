@@ -2,8 +2,13 @@
 @section("content")
 <h1 class="text-center mb-4 mt-4">Data Destinasi</h1>
     <div class="container">
-    <a href="/tambahdestinasi" class="btn btn-success">+ Tambah Destinasi</a>
-        <div class="row">
+    <a href="/tambahdestinasi" class="btn btn-success mb-4">+ Tambah Destinasi</a>
+    <form method="GET" action="/data_destinasi" class="d-flex mb-3">
+    <input type="search" name="search" class="form-control w-25 p-2 me-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+  
+    <button type="submit" class="btn btn-primary p-2">Search</button>
+</form>    
+    <div class="row">
         <table class="table">
   <thead>
     <tr>

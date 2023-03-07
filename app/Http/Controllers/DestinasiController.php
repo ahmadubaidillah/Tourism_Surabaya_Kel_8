@@ -7,9 +7,14 @@ use Illuminate\Http\Request;
 
 class DestinasiController extends Controller
 {
-    public function index(){
+    public function index(Request $request){
 
-        $data = Destinasi::paginate(5);
+        if($request->has('search')){
+            $data = Destinasi::where('nama','LIKE','%'.$request->search.'%')
+            ->orwhere('kategori','LIKE','%'.$request->search.'%')->paginate(5);
+        }else{
+            $data = Destinasi::paginate(5);
+        }
         return view('data_destinasi',compact('data'));
     }
     public function tambahdestinasi(){
