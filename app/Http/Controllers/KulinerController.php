@@ -50,8 +50,13 @@ class KulinerController extends Controller
         
      }
 
-    public function mainkuliner(){
-        $data = Kuliner::paginate(9);
+    public function mainkuliner(Request $request){
+        if($request->has('search')){
+            $data = Kuliner::where('nama','LIKE','%'.$request->search.'%')
+            ->orwhere('kategori','LIKE','%'.$request->search.'%')->paginate(9);
+        }else{
+            $data = Kuliner::paginate(9);
+        }
         return view('mainkuliner',compact('data'));
      }
 

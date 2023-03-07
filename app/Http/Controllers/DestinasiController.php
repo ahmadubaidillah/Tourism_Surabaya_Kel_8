@@ -57,8 +57,13 @@ class DestinasiController extends Controller
         
      }
 
-    public function maindestinasi(){
-        $data = Destinasi::paginate(9);
+    public function maindestinasi(Request $request){
+        if($request->has('search')){
+            $data = Destinasi::where('nama','LIKE','%'.$request->search.'%')
+            ->orwhere('kategori','LIKE','%'.$request->search.'%')->paginate(9);
+        }else{
+            $data = Destinasi::paginate(9);
+        }
         return view('maindestinasi',compact('data'));
      }
      
