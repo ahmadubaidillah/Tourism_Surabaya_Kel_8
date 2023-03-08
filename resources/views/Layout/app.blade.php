@@ -151,12 +151,6 @@
                   </ul>
               </div>
           </div>
-          <div class="isi5-content4">
-              <div class="row1">
-                  <h6>WISATA SURABAYA</h6>
-              </div>
-              <div class="row2"></div>
-          </div>
       </div>
   </footer>
   </body>

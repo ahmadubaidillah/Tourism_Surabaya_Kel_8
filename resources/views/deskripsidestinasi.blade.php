@@ -8,7 +8,7 @@
     </div>
     <div><br /></div>s
 
-<div class="container">
+      <div class="container">
      
   
       <div class="row destinasi-isi" method="get" >
@@ -23,5 +23,6 @@
    
       <p class="text-center">{{$data->deskripsi}}</p>
 
-    </div>
+      </div>
+      <br>
 @endsection

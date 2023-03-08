@@ -24,8 +24,9 @@
                 <select class="form-select" name="kategori" aria-label="Default select example">
                   <option selected>Pilih Kategori</option>
                   <option value="1">Main Course</option>
-                  <option value="2">Snack</option>
-                  <option value="3">Beverages</option>
+                  <option value="2">Beverages</option>
+                  <option value="3">Snack</option>
+                  <option value="4">Food Court</option>
                 </select>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Masukkan Foto</label>

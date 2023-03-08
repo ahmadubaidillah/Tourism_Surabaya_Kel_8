@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DestinasiController;
 use App\Http\Controllers\KulinerController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PanelController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,7 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
+
 // index
 Route::get('/index',[IndexController::class, 'index'])->name('index');
 
@@ -57,3 +60,11 @@ Route::get('/register',[LoginController::class, 'register'])->name('register');
 Route::post('/registeruser',[LoginController::class, 'registeruser'])->name('registeruser');
 
 Route::get('/logout',[LoginController::class, 'logout'])->name('logout');
+
+Route::get('/panelhome',[PanelController::class, 'index'])->name('panelhome');
+Route::get('/contact',[PanelController::class, 'contact'])->name('contact');
+
+// contact
+Route::get('/data_contact',[ContactController::class, 'index'])->name('data_contact');
+Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
+Route::post('/insertcontact',[ContactController::class, 'insertcontact'])->name('insertcontact');

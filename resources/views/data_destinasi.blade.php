@@ -1,4 +1,4 @@
-@extends("Layout.app2")
+@extends("Layout.apppanel")
 @section("content")
 <h1 class="text-center mb-4 mt-4">Data Destinasi</h1>
     <div class="container">
@@ -18,7 +18,9 @@
       <th scope="col">Foto</th>
       <th scope="col">Alamat</th>
       <th scope="col">Deskripsi</th>
+      @if(Auth::user()->role == 'admin')
       <th scope="col">Aksi</th>
+      @endif
     </tr>
   </thead>
   <tbody>
@@ -36,10 +38,11 @@
       <td>{{$row->alamat}}</td>
       <td>{{$row->deskripsi}}</td>
       <td>
-          <a href="/tampilkandestinasi/{{$row->id}}" class="btn btn-warning mb-2">Edit</a>
-        @if(Auth::user()->role == 'admin')
-          <a href="/deletedestinasi/{{$row->id}}" class="btn btn-danger">Delete</button>
-        @endif
+      @if(Auth::user()->role == 'admin')
+      <a href="/tampilkandestinasi/{{$row->id}}" class="btn btn-warning mb-2">Edit</a>
+      <a href="/deletedestinasi/{{$row->id}}" class="btn btn-danger">Delete</button>
+      @endif
+          
           
       </td>
     </tr>

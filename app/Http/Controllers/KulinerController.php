@@ -7,8 +7,13 @@ use Illuminate\Http\Request;
 
 class KulinerController extends Controller
 {
-    public function index(){
-        $data = Kuliner::paginate(5);
+    public function index(Request $request){
+        if($request->has('search')){
+            $data = Kuliner::where('nama','LIKE','%'.$request->search.'%')
+            ->orwhere('kategori','LIKE','%'.$request->search.'%')->paginate(5);
+        }else{
+            $data = Kuliner::paginate(5);
+        }
         return view('data_Kuliner',compact('data'));
     }
     public function tambahkuliner(){
