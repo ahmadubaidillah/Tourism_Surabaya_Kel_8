@@ -14,7 +14,7 @@ class KulinerController extends Controller
         }else{
             $data = Kuliner::paginate(5);
         }
-        return view('data_Kuliner',compact('data'));
+        return view('data_kuliner',compact('data'));
     }
     public function tambahkuliner(){
         return view('tambahkuliner');

@@ -1,4 +1,4 @@
-@extends("Layout.apppanel")
+@extends("Layout.panel")
 @section("content")
     <h1 class="text-center mb-4">Data Kuliner</h1>
     <div class="container">

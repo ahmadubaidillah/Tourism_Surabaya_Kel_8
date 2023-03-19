@@ -6,7 +6,7 @@
     <div class="destinasi-judul">
       <h2>DESTINASI WISATA</h2>
     </div>
-    <div><br /></div>s
+    <div><br /></div>
 
       <div class="container">
      
@@ -24,5 +24,7 @@
       <p class="text-center">{{$data->deskripsi}}</p>
 
       </div>
+      </div>
+
       <br>
 @endsection

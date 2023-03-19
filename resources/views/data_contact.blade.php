@@ -1,8 +1,7 @@
 @extends("Layout.panel")
 @section("content")
-<h1 class="text-center mb-4 mt-4">Data Destinasi</h1>
+<h1 class="text-center mb-4 mt-4">Data Pesan</h1>
     <div class="container">
-    <a href="/tambahdestinasi" class="btn btn-success mb-4">+ Tambah Destinasi</a>
     <form method="GET" action="/data_destinasi" class="d-flex mb-3">
     <input type="search" name="search" class="form-control w-25 p-2 me-3" id="exampleInputEmail1" aria-describedby="emailHelp">
   
@@ -14,13 +13,10 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">Nama</th>
-      <th scope="col">Kategori</th>
-      <th scope="col">Foto</th>
-      <th scope="col">Alamat</th>
-      <th scope="col">Deskripsi</th>
-      @if(Auth::user()->role == 'admin')
+      <th scope="col">Email</th>
+      <th scope="col">No Telepon</th>
+      <th scope="col">Pesan</th>
       <th scope="col">Aksi</th>
-      @endif
     </tr>
   </thead>
   <tbody>
@@ -31,17 +27,12 @@
     <tr>
       <th scope="row">{{$index + $data->firstitem()}}</th>
       <td>{{$row->nama}}</td>
-      <td>{{$row->kategori}}</td>
+      <td>{{$row->email}}</td>
+      <td>{{$row->no_telepon}}</td>
+      <td>{{$row->pesan}}</td>
+      
       <td>
-        <img src="{{asset('fotodestinasi/'.$row->foto)}}" alt="" style="width:50px;">
-      </td>
-      <td>{{$row->alamat}}</td>
-      <td>{{$row->deskripsi}}</td>
-      <td>
-      @if(Auth::user()->role == 'admin')
-      <a href="/tampilkandestinasi/{{$row->id}}" class="btn btn-warning mb-2">Edit</a>
-      <a href="/deletedestinasi/{{$row->id}}" class="btn btn-danger">Delete</button>
-      @endif
+      <a href="/deletecontact/{{$row->id}}" class="btn btn-danger">Delete</button>
           
           
       </td>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Tourism Surabaya</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -127,12 +127,12 @@
                             <a href="http://">Tourism Information Center <br> Jl. Gubernur Suryo 15</a>
                         </li>
                         <li class="li2">
-                            <a href=""><i class="fa fa-fw fa-phone"></i> Kontak Kami</a>
+                            <a href="contact"><i class="fa fa-fw fa-phone"></i> Kontak Kami</a>
                         </li>
                         <li class="li3">
-                            <a href=""><i class="fab fa-lg fa-facebook text-white" aria-hidden="true"></i> </a>
+                            <a href="https://twitter.com/TICSby"><i class="fa-brands fa-twitter"></i></a>
                             &nbsp;
-                            <a href=""></a><i class="fab fa-lg fa-instagram text-white" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/surabayasparkling/"><i class="fab fa-lg fa-instagram text-white" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>

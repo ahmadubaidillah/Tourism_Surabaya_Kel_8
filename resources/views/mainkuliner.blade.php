@@ -67,5 +67,6 @@
       <nav>
         {{$data->links()}}
       </nav>
+</div>
     </div>
 @endsection
