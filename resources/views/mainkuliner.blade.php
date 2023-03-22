@@ -123,31 +123,11 @@
       </div>
   
       <div class="row destinasi-isi" >
-        <div class="col-md-4 text-center my-2">
-          <a
-            href=""
-          >
-            <img
-              class="img-fluid"
-              src="https://fastly.4sqi.net/img/general/width960/5380965_8b5doj2w-aLSW6qrGpDp1dacEYyD-IWGq3Zq-3ETVHQ.jpg"
-              alt="Rawon Setan Embong Malang"
-            />
-          </a>
-          <div class="mt-2">
-            <span class="span-kategori"> Main Course</span>
-            <hr class="my-2" />
-            <h5 class="font-weight-bold">Rawon Setan Embong Malang</h5>
-            <h6>
-              <i class="fa fa-fw fa-map-marker-alt"></i>
-              Jl. Embong Malang No.78/I
-            </h6>
-          </div>
-        </div>
 
         @foreach ($data as $row)
         <div class="col-md-4 text-center my-2">
           <a
-            href=""
+            href="/deskripsikuliner/{{$row->id}}"
           >
             <img
               class="img-fluid"
@@ -169,57 +149,9 @@
 
 
     </div>
-
-   
-
     <div class="nav-list-page">
       <nav>
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="" rel="prev" aria-label="« Previous"
-              >‹</a
-            >
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="index.html">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="destinasi-2.html">2</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">3</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">4</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">5</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">6</a>
-          </li>
-          <li class="page-item disabled" aria-disabled="true">
-            <span class="page-link">...</span>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">45</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">46</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">47</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">48</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="">49</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="" rel="next" aria-label="Next »">›</a>
-          </li>
-        </ul>
+        {{$data->links()}}
       </nav>
     </div>
 @endsection

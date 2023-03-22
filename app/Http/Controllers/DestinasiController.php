@@ -56,5 +56,11 @@ class DestinasiController extends Controller
         $data = Destinasi::paginate(9);
         return view('maindestinasi',compact('data'));
      }
+     
+     public function deskripsidestinasi($id){
+         $data = Destinasi::find($id);
+         return view('deskripsidestinasi',compact('data'));
+      }
+    
 
 }

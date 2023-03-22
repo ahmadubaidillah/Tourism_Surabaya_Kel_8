@@ -195,36 +195,17 @@
       </div>
   
       <div class="row destinasi-isi" >
-        <div class="col-md-4 text-center my-2">
-          <a
-            href="https://tourism.surabaya.go.id/travel/detail/museum-pendidikan-surabaya"
-          >
-            <img
-              class="img-fluid"
-              src="https://tourism.surabaya.go.id/storage/tour/1648709900_1.jpg"
-              alt="Museum Pendidikan Surabaya"
-            />
-          </a>
-          <div class="mt-2">
-            <span class="span-kategori"> Museum </span>
-            <hr class="my-2" />
-            <h5 class="font-weight-bold">Museum Pendidikan Surabaya</h5>
-            <h6>
-              <i class="fa fa-fw fa-map-marker-alt"></i>
-              Jl. Genteng Kali No. 10
-            </h6>
-          </div>
-        </div>
+       
 
         @foreach ($data as $row)
         <div class="col-md-4 text-center my-2">
           <a
-            href=""
+            href="/deskripsidestinasi/{{$row->id}}"
           >
             <img
               class="img-fluid"
               src="{{asset('fotodestinasi/'.$row->foto)}}"
-              alt="Museum Olahraga Surabaya"
+              alt="{{$row->nama}}"
             />
           </a>
           <div class="mt-2">

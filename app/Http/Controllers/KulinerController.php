@@ -54,4 +54,9 @@ class KulinerController extends Controller
         $data = Kuliner::paginate(9);
         return view('mainkuliner',compact('data'));
      }
+
+     public function deskripsikuliner($id){
+        $data = Kuliner::find($id);
+        return view('deskripsikuliner',compact('data'));
+     }
 }

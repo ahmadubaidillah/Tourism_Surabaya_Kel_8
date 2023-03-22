@@ -171,14 +171,14 @@ body {
 
 .isi4-content1 {
     display: flex;
-    width: 970px;
+    width: 1050px;
     margin: 0 auto;
 }
 
 .isi4-content1 .gambar1 {
     flex: 1;
     margin-top: 1, 25em;
-    margin-bottom: 1.25em;
+    margin-bottom: 10em;
 }
 
 .isi4-content1 .gambar2 {
@@ -187,12 +187,12 @@ body {
 
 .gambar1 img {
     border-radius: 50px;
-    width: 461px;
+    width: 500px;
 }
 
 .gambar2 img {
     border-radius: 50px;
-    width: 461px;
+    width: 500px;
 }
 
 .isi-gambar1 .row1 img {

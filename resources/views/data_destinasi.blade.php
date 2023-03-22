@@ -31,7 +31,7 @@
       <td>{{$row->alamat}}</td>
       <td>{{$row->deskripsi}}</td>
       <td>
-          <a href="/tampilkandestinasi/{{$row->id}}" class="btn btn-warning">Edit</a>
+          <a href="/tampilkandestinasi/{{$row->id}}" class="btn btn-warning mb-2">Edit</a>
         @if(Auth::user()->role == 'admin')
           <a href="/deletedestinasi/{{$row->id}}" class="btn btn-danger">Delete</button>
         @endif
