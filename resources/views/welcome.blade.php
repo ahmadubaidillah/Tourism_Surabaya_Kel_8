@@ -1,208 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourism Surabaya</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-</head>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>TOURISM SURABAYA</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+<!--
+
+TemplateMo 569 Edu Meeting
+
+https://templatemo.com/tm-569-edu-meeting
+
+-->
+  </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="" class="nav-logo"><img src="https://tourism.surabaya.go.id/assets/front/images/img-logo-sparkling.png" alt=""></a>
-            <ul class="nav-link">
-                <li class="nav-item"><a href="/">Beranda</a></li>
-                <li class="nav-item"><a href="/maindestinasi">Destinasi</a></li>
-                <li class="nav-item"><a href="/mainkuliner">Kuliner</a></li>
-                <li class="nav-item"><a href="/login">Login</a></li>
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>Start your best journey in surabaya.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             </ul>
-        </nav>
-    </header>
-    <div class="caption">
-        <h1>WISATA SURABAYA</h1>
-        <h2>You will love every corner of it</h2>
-        <h5>Let's explore one of the biggest city in Indonesia with famous name called City of Heroes.</h5>
-        <div class="icon">
-            <a class="a1" href=""><i class="fa-solid fa-map-location-dot"></i><br> Destinasi <br> Wisata</a>
-            <a class="a1"  href=""><i class="fa fa-fw fa-dungeon"></i> <br> Cagar <br> Budaya</a>
-            <a class="a1"  href=""><i class="fa fa-fw fa-bullhorn"></i> <br> Event <br> Surabaya</a>
-            <a class="a1"  href=""><i class="fa fa-fw fa-map"></i> <br> Peta <br> Digital</a>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <div class="mainbg">
-    <video loop muted autoplay poster="poster" class="bg" src="https://tourism.surabaya.go.id/assets/front/videos/surabaya.mp4" ></video>
-    </div>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="/" class="logo">
+                          <img src="https://tourism.surabaya.go.id/assets/front/images/img-logo-sparkling.png" style="width:100px" alt="">
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="/" class="active">Home</a></li>
+                          <li><a href="/maindestinasi">Destinasi</a></li>
+                          <li ><a href="/mainkuliner">Kuliner</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Pages</a>
+                              <ul class="sub-menu">
+                                  <li><a href="/login">Sign In</a></li>
+                                  <li><a href="/contact">Contact Us</a></li>
+                              </ul>
+                          </li>
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
 
-    <div class="isi">
-        <div class="isi-satu">
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-event.png" alt=""> <br> <h6>Event</h6></a>
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-maps.png" alt=""> <br> <h6>Peta</h6></a>
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-culinary.png" alt=""> <br> <h6>Kuliner</h6></a>
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-shopping.png" alt=""> <br> <h6>Shopping</h6></a>
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="https://tourism.surabaya.go.id/assets/front/videos/surabaya.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>Hello Travelers</h6>
+              <h2>Welcome to Wisata Surabaya</h2>
+              <p>You will love every corner of it. 
+Let's explore one of the biggest city in Indonesia with famous name called City of Heroes.</p>
+              <div class="main-button-red">
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+          
+            <div class="item">
+
+              <div class="icon">
+                <a href="#">
+                  <img src="assets/images/dish.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Kuliner</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+                </a>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <a href="#">
+                <img src="assets/images/garden.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Outdoor</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+              </a>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <a href="#">
+                <img src="assets/images/museum.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Museum</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+              </a>
+            </div>
+            
+            <div class="item">
+              <a href="#">
+              <div class="icon">
+                <img src="assets/images/shopping-bag.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Shopping</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+              </a>
+            </div>
+            
+            <div class="item">
+              <a href="#">
+              <div class="icon">
+                <img src="assets/images/hotel.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Hotel</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+              </a>
+            </div>
+            
+          </div>
         </div>
-        <div class="isi-satu">
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-outdoornature.png" alt=""> <br> <h6>Outdoor</h6></a>
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-hotel.png" alt=""> <br> <h6>Hotel</h6></a>
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-heritage.png" alt=""> <br> <h6>Heritage</h6></a>
-            <a href=""><img src="https://tourism.surabaya.go.id/assets/front/images/icon-faq.png" alt=""> <br> <h6>FAQ</h6></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="upcoming-meetings" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>DESTINASI WISATA</h2>
+          </div>
         </div>
-    </div>
-
-    <div class="isi2">
-        <div class="isi2-content">
-            <h4>
-                <div class="h4-1">Explore 360</div>
-                <div class="h4-2">Wisata Surabaya</div>
-            </h4>
-            <img src="https://tourism.surabaya.go.id/assets/front/images/icon-360.png" alt="">
+        <div class="col-lg-4">
+          <div class="categories">
+            <h4>Kategori Destinasi</h4>
+            <ul>
+              <li><a href="#">History & Heritage,</a></li>
+              <li><a href="#">Outdoor & Nature,</a></li>
+              <li><a href="#">Museum,</a></li>
+              <li><a href="#">Religi,</a></li>
+              <li><a href="#">Pusat Perbelanjaan,</a></li>
+            </ul>
+            <div class="main-button-red">
+              <a href="meetings.html">Semua Destinasi</a>
+            </div>
+          </div>
         </div>
-        <div class="isi2-video"><video class="isi-vidio2" autoplay muted loop src="https://tourism.surabaya.go.id/assets/front/videos/360.mp4"></video></div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>History & Heritage</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/jalan tunjungan.jpg" alt="New Lecturer Meeting"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Jalan Tunjungan</h4></a>
+                 <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; JL. Tunjungan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span> Monumen & Landmark</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/tugu pahlawan.jpg" alt="Higher Education"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Monumen Tugu Pahlawan</h4></a>
+                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; JL. Pahlawan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Religi</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/masjid.jpg" alt="Online Teaching"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
+                    Jl. Masjid Agung Timur No.1</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Pusat Perbelanjaan</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/tp.jpg" alt="Student Training"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Tunjungan Plaza</h4></a>
+                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
+                    JL. Jendral Basuki Rachmat no.8-12, Surabaya</p>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="isi3">
-        <img src="https://tourism.surabaya.go.id/assets/front/images/icon-sign.png" alt="">
-        <br>
-        <h3>Start Your Best <br> Journey In Surabaya</h3>
-    </div>
-
-    <div class="isi4">
-        <div class="isi4-content1">
-            <div class="gambar1">
-                <div class="isi-gambar1">
-                    <div class="row1"><img class="img" src="https://tourism.surabaya.go.id/storage/tour/1672116704_1.jpg" alt="" style="margin-bottom:20px">
-                        <span class="span-kategori">History & Heritage</span>
-                        <h3>GEDUNG ESCOMTO (Bank Mandiri KCP Kembang Jepun)</h3>
-                        <p><i class="fa fa-fw fa-map-marker-alt"></i> Jl. Kembang Jepun No 180</p>
+  <section class="apply-now" id="apply">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>JOIN US AS A CONTRIBUTOR</h3>
+                <p>kalian bisa bergabung bersama kami untuk mengunggah informasi terkait lokasi destinasi di wilayah surabaya.</p>
+                <div class="main-button-red">
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>join us as a food seller</h3>
+                <p>kalian juga bisa bergabung untuk memasarkan bisni kuliner kalian dengan cara mengunggah informasi terkait lokasi bisnis kuliner kalian yang berada di wilayah surabaya.</p>
+                <div class="main-button-yellow">
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="accordions is-first-expanded">
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>About Wisata Surabaya</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Wisata Surabaya adalah aplikasi berbasis web yang dikelola oleh Dinas Kebudayaan, Kepemudaan, dan Olahraga serta Pariwisata Kota Surabaya untuk mempermudah wisatawan mencari tujuan destinasi dikota Surabaya.</p>
                     </div>
-                    <br><br><br>
-                    <div class="row2">
-                        <img src="https://tourism.surabaya.go.id/storage/tour/1648714528_1.jpg" alt="" style="margin-bottom:20px">
-                        <span class="span-kategori">Pusat Perbelanjaan</span>
-                        <h3>Tunjungan Plaza</h3>
-                        <p><i class="fa fa-fw fa-map-marker-alt"></i> JL. Jendral Basuki Rachmat no.8-12, Surabaya</p>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>Konsep Utama</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Konsep utama dari Sparkling Surabaya adalah membuat Surabaya sebagai kota yang nyaman dan aman dengan berbagai fasilitas terbaik dan aktifitas warga kotanya yang selalu dinamis. Jadwal kegiatan yang berskala lokal, nasional dan internasional dan kegiatan yang bisa dilakukan oleh wisatawan lokal maupun asing di Surabaya membuat kota ini menjadi kota wisata yang layak untuk dikunjungi semua kalangan.</p>
                     </div>
                 </div>
-            </div>
-            <div class="gambar2">
-                <div class="isi-gambar2">
-                    <div class="row1">
-                        <img src="https://tourism.surabaya.go.id/storage/accomodation/Cleo%20Hotel%20Basuki%20Rahmat_1653624473_1.jpg" alt="" style="margin-bottom:20px">
-                        <span class="span-kategori">Hotel</span>
-                        <h3>Cleo Hotel Basuki Rahmat</h3>
-                        <p><i class="fa fa-fw fa-map-marker-alt"></i> Jl. Basuki Rahmat No.11 Surabaya</p>
-                    </div>
-                    <br><br><br>
-                    <div class="row2">
-                        <img src="https://tourism.surabaya.go.id/storage/tour/1648713708_1.jpg" alt="" style="margin-bottom:20px">
-                        <span class="span-kategori">Monumen & Landmark</span>                      
-                        <h3>Monumen Tugu Pahlawan</h3>
-                        <p><i class="fa fa-fw fa-map-marker-alt"></i>Jl. Pahlawan</p>
+            </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>Arti Logo Sparkling Surabaya</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Konsep dan arti dari logo Sparkling Surabaya diambil dari berbagai potensi wisata kota Surabaya yang dilihat dari segi geografis dan karakter destinasi wisata masing – masing. Tulisan Sparkling Surabaya yang menggunakan warna biru menunjukkan bahwa Surabaya merupakan kota pesisir, sedangkan warna hijau menunjukkan bahwa Surabaya adalah kota yang mengedepankan green and clean. Warna hijau juga mewakili kondisi Surabaya yang punya banyak lapangan golf bertaraf internasional.</p>
                     </div>
                 </div>
-            </div>
+            </article>
+            <article class="accordion last-accordion">
+                <div class="accordion-head">
+                    <span>Share this to your friends</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus minus error et quas mollitia, illo eveniet neque, expedita iusto perspiciatis eos quos ex quae nam omnis voluptates animi tenetur.</p>
+                    </div>
+                </div>
+            </article>
         </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" style="transform:rotate(180deg);margin-bottom:-5px">
-        <path class="elementor-shape-fill" fill="#4a4a8a" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z">
-        </path>
-        <path class="elementor-shape-fill" fill="#4a4a8a" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
-        <path class="elementor-shape-fill" fill="#4a4a8a" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
-    </svg>
-    <footer style="background-color: #4a4a8a; ">
-        <div class="isi5" >
-            <div class="isi5-content1">
-                <div class="row1">
-                    <h6>FIND US</h6>
-                </div>
-                <div class="row2">
-                    <ul class="list1">
-                        <li class="li1">
-                            <a href="http://">Tourism Information Center <br> Jl. Gubernur Suryo 15</a>
-                        </li>
-                        <li class="li2">
-                            <a href="contact"><i class="fa fa-fw fa-phone"></i> Kontak Kami</a>
-                        </li>
-                        <li class="li3">
-                            <a href="https://twitter.com/TICSby"><i class="fa-brands fa-twitter"></i></a>
-                            &nbsp;
-                            <a href="https://www.instagram.com/surabayasparkling/"><i class="fab fa-lg fa-instagram text-white" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="isi5-content2">
-                <div class="row1">
-                    <h6>CONTACT US</h6>
-                    <p>
-                        Dinas Kebudayaan, Kepemudaan dan Olahraga serta Pariwisata Kota Surabaya Kota Surabaya
-                    </p>
-                    <ul class="list2">
-                        <li class="li1">
-                                <i class="fa fa-fw fa-map-marker-alt"></i>
-                                <p>
-                                    Jl. Tunjungan No.1-3 Kelurahan Genteng <br>
-                                    Kecamatan Genteng, Kota Surabaya <br>
-                                    Jawa Timur, Indonesia, 60275
-                                </p>
-                        </li>
-                        <li class="li2">
-                            <i class="fa fa-lg fa-fw fa-phone pull-left"></i>
-                            <p>
-                                031-5318409
-                            </p>
-                        </li>
-                        <li class="li3">
-                            <i class="fa fa-lg fa-fw fa-envelope"></i>
-                                <p>
-                                    disbudporapar@surabaya.go.id
-                                </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="row2"></div>
-            </div>
-            <div class="isi5-content3">
-                <div class="row1">
-                    <h6>OUR OTHER SITE</h6>
-                </div>
-                <div class="row2">
-                    <ul class="list3">
-                        <li class="li1">
-                            <a href="https://disbudporapar.surabaya.go.id">
-                                Disbudporapar Surabaya
-                            </a>
-                        </li>
-                        <li class="li1">
-                            <a href="https://virtualtourism.surabaya.go.id">
-                                360° Surabaya
-                            </a>
-                        </li>
-                        <li class="li1">
-                            <a href="https://tiketwisata.surabaya.go.id">
-                                Tiket Wisata Surabaya
-                            </a>
-                        </li>
-                        <li class="li1">
-                            <a href="https://ka-mus.surabaya.go.id">
-                                Katalog Museum Surabaya
-                            </a>
-                        </li>
-                        <li class="li1">
-                            <a href="https://bangga.surabaya.go.id/">
-                                Bangga Surabaya
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+  <section class="upcoming-meetings" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>DESTINASI WISATA</h2>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-4">
+          <div class="categories">
+            <h4>Kategori Destinasi</h4>
+            <ul>
+              <li><a href="#">History & Heritage,</a></li>
+              <li><a href="#">Outdoor & Nature,</a></li>
+              <li><a href="#">Museum,</a></li>
+              <li><a href="#">Religi,</a></li>
+              <li><a href="#">Pusat Perbelanjaan,</a></li>
+            </ul>
+            <div class="main-button-red">
+              <a href="meetings.html">Semua Destinasi</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>History & Heritage</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/jalan tunjungan.jpg" alt="New Lecturer Meeting"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Jalan Tunjungan</h4></a>
+                 <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; JL. Tunjungan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Religi</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
+                    Jl. Masjid Agung Timur No.1</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Religi</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
+                    Jl. Masjid Agung Timur No.1</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Religi</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6><span></span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
+                    Jl. Masjid Agung Timur No.1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>Explore 360 <br> Surabaya Virtual Tourism</h2>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">85</div>
+                    <div class="count-title">First Time Visitors</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">96742</div>
+                    <div class="count-title">Total Visitors</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content new-students">
+                    <div class="count-digit">173067</div>
+                    <div class="count-title">Total Page Views</div>
+                  </div>
+                </div> 
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">37126</div>
+                    <div class="count-title">Surabaya Virtual Tourism Visitor</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="col-lg-6 align-self-center">
+          <div class="video">
+            <a href="https://virtualtourism.surabaya.go.id/wp-content/uploads/2022/03/360_10NOV_160322/index.html" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Let's get in touch</h2>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                  </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="subject" type="text" id="subject" placeholder="PHONE NUMBER.." required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="right-info">
+            <ul>
+              <li>
+                <h6>Phone Number</h6>
+                <span>
+                  031-5318409</span>
+              </li>
+              <li>
+                <h6>Email Address</h6>
+                <span style="font-size: 13px;">disbudporapar@surabaya.go.id</span>
+              </li>
+              <li>
+                <h6>Address</h6>
+                <span style="font-size: 13px;">Jl. Tunjungan No.1-3 Kelurahan Genteng
+                  Kecamatan Genteng, Kota Surabaya
+                  Jawa Timur, Indonesia, 60275</span>
+              </li>
+              <li>
+                <h6>Website URL</h6>
+                <span style="font-size: 13px;">kelompok8.surabayawebtech.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright © 2023 Tousrism Surabaya. 
+          <br>
+          <!-- Design: <a href="https://templatemo.com" target="_parent" title="free css templates">kelompok 8</a>
+          <br>
+          Distibuted By: <a href="https://themewagon.com" target="_blank" title="Build Better UI, Faster">ThemeWagon</a> -->
+        </p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
 </body>
 </html>
