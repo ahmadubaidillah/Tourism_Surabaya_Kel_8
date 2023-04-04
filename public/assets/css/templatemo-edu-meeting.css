@@ -1315,7 +1315,7 @@ our facts
 */
 
 section.our-facts {
-    background-image: url(https://live.staticflickr.com/584/22941889835_0d98d2289a_b.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
