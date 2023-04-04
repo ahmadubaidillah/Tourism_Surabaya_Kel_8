@@ -1513,7 +1513,7 @@ heading page
 */
 
 section.heading-page {
-    background-image: url("https://c0.wallpaperflare.com/path/450/910/364/indonesia-surabaya-jl-tunjungan-walk-9a66cbf1d10ed276a1225ca4c1287dfd.jpg");
+    background-image: url(../images/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
