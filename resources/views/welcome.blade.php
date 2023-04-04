@@ -12,15 +12,18 @@
     <title>TOURISM SURABAYA</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    
+
+
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="{{asset('assets/css/fontawesome.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/templatemo-edu-meeting.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/owl.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/lightbox.css')}}">
 <!--
 
 TemplateMo 569 Edu Meeting
@@ -44,9 +47,9 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/SparklingAiesecSurabaya"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/TICSby"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/surabayasparkling/"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -105,7 +108,7 @@ https://templatemo.com/tm-569-edu-meeting
               <p>You will love every corner of it. 
 Let's explore one of the biggest city in Indonesia with famous name called City of Heroes.</p>
               <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div ><a href="/login">Join Us Now!</a></div>
               </div>
           </div>
               </div>
@@ -124,7 +127,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
             <div class="item">
 
               <div class="icon">
-                <a href="#">
+                <a href="/mainkuliner">
                   <img src="assets/images/dish.png" alt="">
               </div>
               <div class="down-content">
@@ -136,7 +139,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
             
             <div class="item">
               <div class="icon">
-                <a href="#">
+                <a href="/maindestinasi?search=Outdoor">
                 <img src="assets/images/garden.png" alt="">
               </div>
               <div class="down-content">
@@ -148,7 +151,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
             
             <div class="item">
               <div class="icon">
-                <a href="#">
+                <a href="/maindestinasi?search=Museum">
                 <img src="assets/images/museum.png" alt="">
               </div>
               <div class="down-content">
@@ -159,7 +162,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
             </div>
             
             <div class="item">
-              <a href="#">
+              <a href="/maindestinasi?search=Pusat">
               <div class="icon">
                 <img src="assets/images/shopping-bag.png" alt="">
               </div>
@@ -171,7 +174,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
             </div>
             
             <div class="item">
-              <a href="#">
+              <a href="/maindestinasi?search=hotel">
               <div class="icon">
                 <img src="assets/images/hotel.png" alt="">
               </div>
@@ -200,89 +203,39 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
           <div class="categories">
             <h4>Kategori Destinasi</h4>
             <ul>
-              <li><a href="#">History & Heritage,</a></li>
-              <li><a href="#">Outdoor & Nature,</a></li>
-              <li><a href="#">Museum,</a></li>
-              <li><a href="#">Religi,</a></li>
-              <li><a href="#">Pusat Perbelanjaan,</a></li>
+              <li><a href="/maindestinasi?search=History">History & Heritage,</a></li>
+              <li><a href="/maindestinasi?search=Outdoor">Outdoor & Nature,</a></li>
+              <li><a href="/maindestinasi?search=Museum">Museum,</a></li>
+              <li><a href="/maindestinasi?search=Religi">Religi,</a></li>
+              <li><a href="/maindestinasi?search=Pusat">Pusat Perbelanjaan</a></li>
             </ul>
             <div class="main-button-red">
-              <a href="meetings.html">Semua Destinasi</a>
+              <a href="/maindestinasi">Semua Destinasi</a>
             </div>
           </div>
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>History & Heritage</span>
+           @foreach ($data as $row)
+              <div class="col-lg-6">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>{{$row->kategori}}</span>
+                    </div>
+                    <a href="/deskripsidestinasi/{{$row->id}}"><img src="{{asset('fotodestinasi/'.$row->foto)}}" alt="New Lecturer Meeting" style="height:211.5px"></a>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/jalan tunjungan.jpg" alt="New Lecturer Meeting"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6><span></span></h6>
+                  <div class="down-content">
+                    <div class="date">
+                      <h6><span></span></h6>
+                    </div>
+                    <a href="/deskripsidestinasi/{{$row->id}}"><h4>{{$row->nama}}</h4></a>
+                  <p> <i class="fa fa-map-marker"></i> &nbsp; {{$row->alamat}}</p>
                   </div>
-                  <a href="meeting-details.html"><h4>Jalan Tunjungan</h4></a>
-                 <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; JL. Tunjungan</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span> Monumen & Landmark</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/tugu pahlawan.jpg" alt="Higher Education"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6><span></span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Monumen Tugu Pahlawan</h4></a>
-                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; JL. Pahlawan</p>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>Religi</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/masjid.jpg" alt="Online Teaching"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6><span></span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
-                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
-                    Jl. Masjid Agung Timur No.1</p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>Pusat Perbelanjaan</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/tp.jpg" alt="Student Training"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6><span></span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Tunjungan Plaza</h4></a>
-                  <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
-                    JL. Jendral Basuki Rachmat no.8-12, Surabaya</p>                </div>
-              </div>
-            </div>
+           @endforeach
+          
           </div>
         </div>
       </div>
@@ -299,7 +252,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
                 <h3>JOIN US AS A CONTRIBUTOR</h3>
                 <p>kalian bisa bergabung bersama kami untuk mengunggah informasi terkait lokasi destinasi di wilayah surabaya.</p>
                 <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div ><a href="/login">Join Us Now!</a></div>
               </div>
               </div>
             </div>
@@ -308,7 +261,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
                 <h3>join us as a food seller</h3>
                 <p>kalian juga bisa bergabung untuk memasarkan bisni kuliner kalian dengan cara mengunggah informasi terkait lokasi bisnis kuliner kalian yang berada di wilayah surabaya.</p>
                 <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div ><a href="/login">Join Us Now!</a></div>
               </div>
               </div>
             </div>
@@ -379,21 +332,19 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h2>DESTINASI WISATA</h2>
+            <h2>KULINER SURABAYA</h2>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="categories">
-            <h4>Kategori Destinasi</h4>
+            <h4>Kategori Kuliner</h4>
             <ul>
-              <li><a href="#">History & Heritage,</a></li>
-              <li><a href="#">Outdoor & Nature,</a></li>
-              <li><a href="#">Museum,</a></li>
-              <li><a href="#">Religi,</a></li>
-              <li><a href="#">Pusat Perbelanjaan,</a></li>
+              <li><a href="/mainkuliner?search=Main">Main Corse,</a></li>
+              <li><a href="/mainkuliner?search=Snack">Snack,</a></li>
+              <li><a href="/mainkuliner?search=Beverage">Beverage,</a></li>
             </ul>
             <div class="main-button-red">
-              <a href="meetings.html">Semua Destinasi</a>
+              <a href="meetings.html">Semua Kuliner</a>
             </div>
           </div>
         </div>
@@ -403,16 +354,16 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>History & Heritage</span>
+                    <span>Main Corse</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/jalan tunjungan.jpg" alt="New Lecturer Meeting"></a>
+                  <a href="/deskripsikuliner/1"><img src="fotokuliner/rawon.jpg" alt="New Lecturer Meeting" style="height:211.5px"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6><span></span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Jalan Tunjungan</h4></a>
-                 <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; JL. Tunjungan</p>
+                  <a href="/deskripsikuliner/1"><h4>Rawon Setan Embong Malang</h4></a>
+                 <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; Jl. Embong Malang No.78/I</p>
                 </div>
               </div>
             </div>
@@ -420,17 +371,17 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>Religi</span>
+                    <span>Snack</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                  <a href="/deskripsikuliner/2"><img src="fotokuliner/pentol.jpg" alt="Online Teaching" style="height:211.5px"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6><span></span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <a href="/deskripsikuliner/2"><h4>Pentol Goyang Lidah Cempaka</h4></a>
                   <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
-                    Jl. Masjid Agung Timur No.1</p>
+                  Jl. Cempaka No.9, Embong Kaliasin</p>
                 </div>
               </div>
             </div>
@@ -438,17 +389,17 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>Religi</span>
+                    <span>Beverage</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                  <a href="/deskripsikuliner/3"><img src="fotokuliner/coklat2.webp" alt="Online Teaching" style="height:211.5px"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6><span></span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <a href="/deskripsikuliner/3"><h4>Es Coklat Tambah Umur 1950</h4></a>
                   <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
-                    Jl. Masjid Agung Timur No.1</p>
+                  Jl. Simokerto No.49</p>
                 </div>
               </div>
             </div>
@@ -456,17 +407,17 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>Religi</span>
+                    <span>Main Corse</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                  <a href="/deskripsikuliner/4"><img src="fotokuliner/mak.y.jpg" alt="Online Teaching" style="height:211.5px"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6><span></span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Masjid Nasional Al Akbar</h4></a>
+                  <a href="/deskripsikuliner/4"><h4>Sego Sambel Mak Yeye</h4></a>
                   <p> <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp; 
-                    Jl. Masjid Agung Timur No.1</p>
+                  Jl. Jagir Wonokromo Wetan No.10</p>
                 </div>
               </div>
             </div>
@@ -528,73 +479,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
   </section>
 
   <section class="contact-us" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 align-self-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <form id="contact" action="" method="post">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2>Let's get in touch</h2>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
-                  </fieldset>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="PHONE NUMBER.." required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="right-info">
-            <ul>
-              <li>
-                <h6>Phone Number</h6>
-                <span>
-                  031-5318409</span>
-              </li>
-              <li>
-                <h6>Email Address</h6>
-                <span style="font-size: 13px;">disbudporapar@surabaya.go.id</span>
-              </li>
-              <li>
-                <h6>Address</h6>
-                <span style="font-size: 13px;">Jl. Tunjungan No.1-3 Kelurahan Genteng
-                  Kecamatan Genteng, Kota Surabaya
-                  Jawa Timur, Indonesia, 60275</span>
-              </li>
-              <li>
-                <h6>Website URL</h6>
-                <span style="font-size: 13px;">kelompok8.surabayawebtech.com</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <div class="footer">
       <p>Copyright © 2023 Tousrism Surabaya. 
           <br>
@@ -607,16 +492,16 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="{{asset('assets/js/isotope.min.js')}}"></script>
+    <script src="{{asset('assets/js/owl-carousel.js')}}"></script>
+    <script src="{{asset('assets/js/tabs.js')}}"></script>
+    <script src="{{asset('assets/js/tabs.js')}}"></script>
+    <script src="{{asset('assets/js/video.js')}}"></script>
+    <script src="{{asset('assets/js/slick-slider.js')}}"></script>
+    <script src="{{asset('assets/js/custom.js')}}"></script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');

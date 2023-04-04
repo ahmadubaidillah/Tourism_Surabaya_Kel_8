@@ -71,6 +71,17 @@ class DestinasiController extends Controller
          $data = Destinasi::find($id);
          return view('deskripsidestinasi',compact('data'));
       }
-    
+      
+      public function welcome(Request $request){
+        if($request->has('search')){
+            $data = Destinasi::where('nama','LIKE','%'.$request->search.'%')
+            ->orwhere('kategori','LIKE','%'.$request->search.'%')->paginate(4);
+        }else{
+            $data = Destinasi::paginate(4);
+        }
+        return view('welcome',compact('data'));
+     }
+
+     
 
 }

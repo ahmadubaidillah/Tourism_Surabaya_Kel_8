@@ -25,10 +25,12 @@ Route::get('/', function () {
 // destinasi
 Route::get('/maindestinasi',[DestinasiController::class, 'maindestinasi'])->name('maindestinasi');
 Route::get('/deskripsidestinasi/{id}',[DestinasiController::class, 'deskripsidestinasi'])->name('deskripsidestinasi');
+Route::get('/',[DestinasiController::class, 'welcome'])->name('welcome');
 
 // kuliner
 Route::get('/mainkuliner',[KulinerController::class, 'mainkuliner'])->name('mainkuliner');
 Route::get('/deskripsikuliner/{id}',[KulinerController::class, 'deskripsikuliner'])->name('deskripsikuliner');
+
 
 // Hak Akses
 Route::group(['middleware' => ['auth','hakakses:admin,user']],function(){

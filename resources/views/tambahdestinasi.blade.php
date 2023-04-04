@@ -24,8 +24,8 @@
                 <select class="form-select" name="kategori" aria-label="Default select example">
                   <option selected>Pilih Kategori</option>
                   <option value="1">History & Heritage</option>
-                  <option value="2">museum</option>
-                  <option value="3">religi</option>
+                  <option value="2">Museum</option>
+                  <option value="3">Religi</option>
                   <option value="4">Outdoor & Nature</option>
                   <option value="5">Pusat Perbelanjaan</option>
                   <option value="6">Pasar Tradisional</option>
