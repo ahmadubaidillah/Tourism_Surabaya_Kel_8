@@ -132,7 +132,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Kuliner</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
                 </a>
             </div>
@@ -144,7 +144,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Outdoor</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </a>
             </div>
@@ -156,7 +156,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Museum</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </a>
             </div>
@@ -168,7 +168,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Shopping</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </a>
             </div>
@@ -180,7 +180,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Hotel</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </a>
             </div>
