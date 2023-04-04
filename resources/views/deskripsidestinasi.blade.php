@@ -146,9 +146,9 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="share">
                         <h5>Share:</h5>
                         <ul>
-                          <li><a href="#">Facebook</a>,</li>
-                          <li><a href="#">Twitter</a>,</li>
-                          <li><a href="#">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/SparklingAiesecSurabaya"><i class="fa fa-facebook"></i> &nbsp Facebook</a>,</li>
+                          <li><a href="https://twitter.com/TICSby"><i class="fa fa-twitter"></i> &nbsp Twitter</a>,</li>
+                          <li><a href="https://www.instagram.com/surabayasparkling/"><i class="fa fa-instagram"></i> &nbsp Instagram</a></li>
                         </ul>
                       </div>
                     </div>
