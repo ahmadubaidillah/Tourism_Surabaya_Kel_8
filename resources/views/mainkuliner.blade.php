@@ -118,7 +118,7 @@ https://templatemo.com/tm-569-edu-meeting
                   <li data-filter="*"  class="active">All Kuliner</li>
                   <li data-filter=".Main">Main Corse</li>
                   <li data-filter=".Snack">Snack</li>
-                  <li data-filter=".Beverage">Beverage</li>
+                  <li data-filter=".Beverages">Beverages</li>
                 </ul>
               </div>
             </div>
