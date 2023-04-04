@@ -344,7 +344,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               <li><a href="/mainkuliner?search=Beverage">Beverage,</a></li>
             </ul>
             <div class="main-button-red">
-              <a href="meetings.html">Semua Kuliner</a>
+              <a href="/mainkuliner">Semua Kuliner</a>
             </div>
           </div>
         </div>
