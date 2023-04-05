@@ -78,6 +78,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <ul class="sub-menu">
                                   <li><a href="/login">Sign In</a></li>
                                   <li><a href="/contact">Contact Us</a></li>
+                                  <li><a href="/team">Our Team</a></li>
                               </ul>
                           </li>
                       </ul>        

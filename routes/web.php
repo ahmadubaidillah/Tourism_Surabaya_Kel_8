@@ -72,3 +72,4 @@ Route::get('/logout',[LoginController::class, 'logout'])->name('logout');
 Route::get('/contact',[ContactController::class, 'contact'])->name('contact');
 Route::post('/insertcontact',[ContactController::class, 'insertcontact'])->name('insertcontact');
 Route::get('/deletecontact/{id}',[ContactController::class, 'deletecontact'])->name('deletecontact');
+Route::get('/team',[ContactController::class, 'team'])->name('team');

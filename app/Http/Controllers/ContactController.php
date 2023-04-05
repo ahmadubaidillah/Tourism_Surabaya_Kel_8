@@ -37,6 +37,11 @@ class ContactController extends Controller
         $data->delete();
         return redirect()->route('data_contact');
     }
+
+    public function team()
+    {
+        return view('team');
+    }
     /**
      * Show the form for creating a new resource.
      *
