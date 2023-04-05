@@ -160,7 +160,7 @@ https://templatemo.com/tm-569-edu-meeting
             </div>
             <div class="col-lg-12">
               <div class="main-button-red">
-                <a href="meetings.html">Back To Meetings List</a>
+                <a href="/mainkuliner">Back To Kuliner List</a>
               </div>
             </div>
           </div>
