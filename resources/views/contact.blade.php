@@ -156,17 +156,17 @@ https://templatemo.com/tm-569-edu-meeting
               </li>
               <li>
                 <h6>Email Address</h6>
-                <span style="font-size: 13px;">disbudporapar@surabaya.go.id</span>
+                <span class="right-isi" >disbudporapar@surabaya.go.id</span>
               </li>
               <li>
                 <h6>Address</h6>
-                <span style="font-size: 13px;">Jl. Tunjungan No.1-3 Kelurahan Genteng
+                <span class="right-isi"  >Jl. Tunjungan No.1-3 Kelurahan Genteng
                   Kecamatan Genteng, Kota Surabaya
                   Jawa Timur, Indonesia, 60275</span>
               </li>
               <li>
                 <h6>Website URL</h6>
-                <span style="font-size: 13px;">kelompok8.surabayawebtech.com</span>
+                <span class="right-isi" >kelompok8.surabayawebtech.com</span>
               </li>
             </ul>
           </div>

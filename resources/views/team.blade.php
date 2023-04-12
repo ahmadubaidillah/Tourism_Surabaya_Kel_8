@@ -116,6 +116,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <h6>Ketua Kelompok</h6><br>
                               <span class="post">Full Stack Web Developer</span>
                               <ul class="social">
+                                    <li><a href="https://github.com/ahmadubaidillah" class="fa fa-github"></a></li>
                                     <li><a href="https://www.instagram.com/iniubed/" class="fa fa-instagram"></a></li>
                                     <li><a href="https://www.linkedin.com/in/ahmad-ubaidillah-asshidiqi-1443b5204/" class="fa fa-linkedin"></a></li>
                               </ul>
@@ -131,6 +132,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <h6>Anggota Kelompok</h6><br>
                               <span class="post">Web Designer</span>
                               <ul class="social">
+                                    <li><a href="" class="fa fa-github"></a></li>
                                     <li><a href="https://instagram.com/xfr_naa?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
                                     <li><a href="https://www.linkedin.com/in/fitri-romadhona-1876a4260" class="fa fa-linkedin"></a></li>
                               </ul>
@@ -146,6 +148,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <h6>Anggota Kelompok</h6><br>
                               <span class="post">Web Designer</span>
                               <ul class="social">
+                                    <li><a href="https://github.com/okik2510" class="fa fa-github"></a></li>
                                     <li><a href="https://instagram.com/kaito_indo_360p?igshid=ZDdkNTZiNTM=" class="fa fa-instagram"></a></li>
                                     <li><a href="https://www.linkedin.com/in/okky-putra-609b41256" class="fa fa-linkedin"></a></li>
                               </ul>
@@ -161,6 +164,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <h6>Anggota Kelompok</h6><br>
                               <span class="post">Web Designer</span>
                               <ul class="social">
+                                    <li><a href="https://github.com/DinaTri08" class="fa fa-github"></a></li>
                                     <li><a href="#" class="fa fa-instagram"></a></li>
                                     <li><a href="#" class="fa fa-linkedin"></a></li>
                               </ul>
@@ -175,6 +179,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <h6>Anggota Kelompok</h6><br>
                               <span class="post">Web Designer</span>
                               <ul class="social">
+                                    <li><a href="" class="fa fa-github"></a></li>
                                     <li><a href="#" class="fa fa-instagram"></a></li>
                                     <li><a href="https://www.linkedin.com/in/abdillah-akbar-499185217/" class="fa fa-linkedin"></a></li>
                               </ul>
@@ -189,6 +194,7 @@ https://templatemo.com/tm-569-edu-meeting
                               <h6>Anggota Kelompok</h6><br>
                               <span class="post">Web Designer</span>
                               <ul class="social">
+                                    <li><a href="https://github.com/erikapuspitaa" class="fa fa-github"></a></li>
                                     <li><a href="#" class="fa fa-instagram"></a></li>
                                     <li><a href="#" class="fa fa-linkedin"></a></li>
                               </ul>

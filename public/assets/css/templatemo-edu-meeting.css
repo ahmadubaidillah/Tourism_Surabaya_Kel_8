@@ -1485,7 +1485,7 @@ section.contact-us .right-info ul li h6 {
 
 section.contact-us .right-info ul li span {
     display: block;
-    font-size: 18px;
+    font-size: 13px;
     color: #fff;
     font-weight: 700;
 }
@@ -1949,5 +1949,11 @@ responsive
 
     .header-area .main-nav .nav li ul.sub-menu li a {
         color: #1f272b;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1400px) {
+    section.contact-us .right-info ul li span {
+        font-size: 9px;
     }
 }

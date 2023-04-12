@@ -126,13 +126,24 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
           <div class="owl-service-item owl-carousel">
           
             <div class="item">
-
               <div class="icon">
                 <a href="/mainkuliner">
                   <img src="assets/images/dish.png" alt="">
               </div>
               <div class="down-content">
                 <h4>Kuliner</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+                </a>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <a href="/maindestinasi">
+                  <img src="assets/flight.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Destinasi</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
                 </a>
