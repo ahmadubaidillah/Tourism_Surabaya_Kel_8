@@ -114,7 +114,7 @@ https://templatemo.com/tm-569-edu-meeting
                               </div>
                               <h3 class="title">Ahmad Ubaidillah Asshidiqi</h3>
                               <h6>Ketua Kelompok</h6><br>
-                              <span class="post">Full Stack Web Developer</span>
+                              <span class="post">Full Stack Developer</span>
                               <ul class="social">
                                     <li><a href="https://github.com/ahmadubaidillah" class="fa fa-github"></a></li>
                                     <li><a href="https://www.instagram.com/iniubed/" class="fa fa-instagram"></a></li>
