@@ -329,7 +329,9 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus minus error et quas mollitia, illo eveniet neque, expedita iusto perspiciatis eos quos ex quae nam omnis voluptates animi tenetur.</p>
+                        <p>Agar mendapatkan info seputar destinasi wisata serta kuliner Surabaya bisa share ke teman teman kalian mengenai web ini melalui social media kita di <a href="https://www.facebook.com/SparklingAiesecSurabaya"> Facebook</a>,
+                          <a href="https://twitter.com/TICSby">Twitter</a>
+                          <a href="https://www.instagram.com/surabayasparkling/"> dan Instagram</a></p>
                     </div>
                 </div>
             </article>
