@@ -180,7 +180,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Shopping</h4>
-                <p>Banyak juga tempat atau pusat perbelanjan di kota Surabaya ini, yang bisa dibilang memiliki beberapa mall terbesar di Indonesia seperti Tunjungan Plaza dan Pakuwon Trade Center.</p>
+                <p>Banyak juga pusat perbelanjan di kota Surabaya ini, yang memiliki beberapa mall terbesar di Indonesia seperti Tunjungan Plaza dan Pakuwon Trade Center.</p>
               </div>
               </a>
             </div>
