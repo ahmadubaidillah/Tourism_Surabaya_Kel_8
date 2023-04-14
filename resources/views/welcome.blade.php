@@ -132,7 +132,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Kuliner</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Surabaya memiliki cita rasa yang khas, sehingga wajib dicoba saat berlibur. Berbagai makanan seperti rawon, rujak cingur, hingga sate khas Surabaya. </p>
               </div>
                 </a>
             </div>
@@ -144,7 +144,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Destinasi</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Surabaya menjadi salah satu kota di Indonesia yang sarat dengan sejarah. Banyak tempat wisata yang berhubungan dengan sejarah di Kota Pahlawan ini.</p>
               </div>
                 </a>
             </div>
@@ -156,7 +156,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Outdoor</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Selain mudah diakses menggunakan berbagai jenis moda transportasi, Kota Pahlawan juga memiliki banyak destinasi wisata outdoor yang menarik untuk dijelajahi.</p>
               </div>
               </a>
             </div>
@@ -168,7 +168,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Museum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Kota dengan julukan Kota Pahlawan ini memiliki banyak sekali peninggalan perjuangan para pahlawan yang diabadikan diberbagai museum di Surabaya.</p>
               </div>
               </a>
             </div>
@@ -180,7 +180,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Shopping</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Banyak juga tempat atau pusat perbelanjan di kota surabaya ini, yang bisa dibilang memiliki beberapa mall terbesar di Indonesia sepert Tunjungan Plaza dan Pakuwon Trade Center.</p>
               </div>
               </a>
             </div>
@@ -192,7 +192,7 @@ Let's explore one of the biggest city in Indonesia with famous name called City 
               </div>
               <div class="down-content">
                 <h4>Hotel</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Surabaya juga memiliki banyak tempat singgah seperti hotel untuk para wisatawan, salah satu contohnya hotel majapahit yang masih memiliki kesan bersejarah.</p>
               </div>
               </a>
             </div>
