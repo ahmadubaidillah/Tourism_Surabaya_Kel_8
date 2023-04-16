@@ -146,7 +146,7 @@ https://templatemo.com/tm-569-edu-meeting
                               </div>
                               <h3 class="title">Okky Putra</h3>
                               <h6>Anggota Kelompok</h6><br>
-                              <span class="post">Web Designer</span>
+                              <span class="post">Front End Developer</span>
                               <ul class="social">
                                     <li><a href="https://github.com/okik2510" class="fa fa-github"></a></li>
                                     <li><a href="https://instagram.com/kaito_indo_360p?igshid=ZDdkNTZiNTM=" class="fa fa-instagram"></a></li>
@@ -158,11 +158,11 @@ https://templatemo.com/tm-569-edu-meeting
                         <div class="col-md-4 col-sm-6">
                         <div class="our-team">
                               <div class="pic">
-                                    <img src="5.png">
+                                    <img src="6.png">
                               </div>
                               <h3 class="title">Dina Tri Sekarningsih</h3>
                               <h6>Anggota Kelompok</h6><br>
-                              <span class="post">Web Designer</span>
+                              <span class="post">Front End Developer</span>
                               <ul class="social">
                                     <li><a href="https://github.com/DinaTri08" class="fa fa-github"></a></li>
                                     <li><a href="#" class="fa fa-instagram"></a></li>
